@@ -25,7 +25,7 @@ span.tile-text {
 input {
   display: inline-block;
   background: #8f7a66;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0 20px;
   text-decoration: none;
   color: #f9f6f2;
@@ -43,7 +43,7 @@ input {
   appearance: none; }
   input[type="text"], input[type="email"] {
     cursor: auto;
-    background: #fcfbf9;
+    background: #fcfdf9;
     font-weight: normal;
     color: #776e65;
     padding: 0 15px; }
@@ -120,7 +120,7 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: blue;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
@@ -137,7 +137,7 @@ h1.title {
   content: "Score"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "Best till"; }
 
 p {
   margin-top: 0;
@@ -221,7 +221,7 @@ hr {
 .game-message {
   display: none;
   position: absolute;
-  top: 0;
+  top: 5;
   right: 0;
   bottom: 0;
   left: 0;
@@ -397,7 +397,7 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #f5f5f5;
+    background: #f5f4f5;
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -406,8 +406,8 @@ hr {
     color: #354b59;}
   .tile.tile-2 .tile-inner {
     background: url('../tile-sets/udacity/2.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background-size: 60%;
+    color: rgba(5,0,50,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: url('../tile-sets/udacity/4.png');
@@ -986,7 +986,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #f9f6f7;
   line-height: 42px;
   cursor: pointer;
   display: block;
